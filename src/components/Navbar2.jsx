@@ -15,7 +15,7 @@ const Navbar2 = () => {
     <>
        <Navbar collapseOnSelect expand="lg" className="fixed-top" bg='dark'>
       <Container>
-        <Navbar.Brand href="/" className='text-white1  fw-bold' >Ghoom-lo monu</Navbar.Brand>
+        <Navbar.Brand href="/" className='text-white1  fw-bold' >Ghoom-lo</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
