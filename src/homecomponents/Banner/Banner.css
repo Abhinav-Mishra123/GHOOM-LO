@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,700&display=swap');
+
+.img-height {
+    height: 580px !important;
+    object-fit: cover;
+}
+.carousel-indicators [data-bs-target] {
+    height: 10px;
+    width: 45px;
+    border-radius: 50%;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+section#input-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 9;
+    transform: translate(-50%,-50%);
+}
+.formgrpup {
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.formcontrol {
+    width: 550px;
+    height: 46px;
+    outline: none;
+    border: 1px dotted #c9c2c2;
+    border-radius: 30px;
+    background-color: aliceblue;
+}
+.where {
+    font-family: 'Roboto', sans-serif;
+
+}
+.input-seacrh-white {
+    width: 600px;
+    height: 150px;
+    background: white;
+    padding: 14px;
+    border-radius: 15px;
+}
+button#search {
+    /* text-align: center; */
+    display: block;
+    margin: auto;
+    margin-top: 13px;
+    font-size: 22px;
+    width: 140px;
+    height: 45px;
+}
+
+
+
+/* Media Query  */
+@media (min-width:572px) and (max-width:768px) {
+    .formcontrol {
+        width: 350px;
+        height: 39px;
+        outline: none;
+        border: 1px dotted #c9c2c2;
+        border-radius: 30px;
+    }
+    .input-seacrh-white {
+        width: 400px;
+        height: 140px;
+        background: white;
+        padding: 14px;
+        border-radius: 15px;
+    }
+    button#search {
+        /* text-align: center; */
+        display: block;
+        margin: auto;
+        margin-top: 17px;
+        font-size: 19px;
+        width: 140px;
+        height: 43px;
+    }
+    
+}
+@media (min-width:300px) and (max-width:572px) {
+    button#search {
+        /* text-align: center; */
+        display: block;
+        margin: auto;
+        margin-top: 7px;
+        font-size: 17px;
+        width: 98px;
+        height: 39px;
+    }
+    .formcontrol {
+        width: 260px;
+        margin-top: -11px;
+        height: 36px;
+        outline: none;
+        border: 1px dotted #c9c2c2;
+        border-radius: 30px;
+    }
+    .input-seacrh-white {
+        width: 280px;
+        height: 100px;
+        background: white;
+        padding: 8px;
+        border-radius: 15px;
+    }
+    section#input-container {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        z-index: 9;
+        transform: translate(-50%,-50%);
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+}

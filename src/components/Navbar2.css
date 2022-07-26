@@ -1,0 +1,14 @@
+.navbar-nav a {
+    text-decoration: none;
+    padding: .5rem 1rem ;
+}
+.text-white1 {
+    color: #fff;
+}
+.navbar-toggler-icon {
+    background-color: #fff;
+    border-radius: 5px;
+}
+.navbar-brand:focus, .navbar-brand:hover {
+    color: #fff;
+}
